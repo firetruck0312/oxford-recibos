@@ -7,5 +7,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Cambiar a '/oxford-recibos/' si lo publicas en una subruta
+  base: '/oxford-recibos/', // Cambiar a '/oxford-recibos/' si lo publicas en una subruta
 })
