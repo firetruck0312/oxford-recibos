@@ -902,7 +902,7 @@ export default function OxfordAdmin() {
                 display:"flex", alignItems:"center", justifyContent:"center",
                 fontSize:"13px", fontWeight:800, color:B.greenDark }}>D</div>
               <div style={{ fontSize:"12px", color:B.textMuted, lineHeight:1.2 }}>
-                <div style={{ color:B.text, fontWeight:700 }}>Director</div>
+                <div style={{ color:B.text, fontWeight:700 }}>Admin</div>
                 <div>Oxford Matamoros</div>
               </div>
             </div>
