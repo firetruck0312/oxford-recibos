@@ -1,0 +1,100 @@
+📁 PROYECTO OXFORD RECIBOS — ESTRUCTURA COMPLETA
+
+oxford-recibos/
+│
+├── 📄 index.html                    ← Template HTML (Vite)
+├── 📄 package.json                  ← Dependencias (React, Vite, gh-pages)
+├── 📄 vite.config.js                ← Config Vite
+├── 📄 .gitignore                    ← Archivos a ignorar en git
+│
+├── 📋 README.md                     ← Guía rápida para usuario
+├── 📋 GITHUB_SETUP.md               ← Pasos detallados para GitHub Pages
+│
+└── src/
+    ├── App.jsx                      ← Router principal (selector rol)
+    ├── main.jsx                     ← Entry point React
+    │
+    └── components/
+        ├── oxford-recibos.jsx       ← App iPad Secretaria 📱
+        │   • Buscar alumnos
+        │   • Generar recibos
+        │   • Seleccionar meses
+        │   • Vista previa
+        │   • Impresión (2 copias)
+        │
+        └── oxford-admin.jsx         ← Panel Director 💼
+            • Dashboard con KPIs
+            • Lista de alumnos
+            • Perfil alumno
+            • Reporte adeudos (CSV export)
+
+═══════════════════════════════════════════════════════════════════════════
+
+📦 TAMAÑO: ~800 KB (minificado: ~100 KB)
+⚡ DEPENDENCIAS: React 18, Vite 4
+🌐 HOSTING: GitHub Pages (gratis)
+📱 RESPONSIVE: iPad + Desktop
+
+═══════════════════════════════════════════════════════════════════════════
+
+✨ FEATURES INCLUIDOS:
+
+✅ Selector de rol (Secretaria/Director) en login
+✅ App iPad fullscreen (secretaria)
+✅ Panel admin responsive (director)
+✅ Datos de demostración 10 alumnos reales
+✅ Lógica de pagos (distribución meses)
+✅ Generación de recibos (2 copias)
+✅ Impresión CSS (ticket 80mm + cuarto carta)
+✅ Dashboard con KPIs
+✅ Reporte adeudos con tabla matricial
+✅ Export CSV
+✅ Almacenamiento folio en localStorage
+✅ Branding Oxford completo
+
+═══════════════════════════════════════════════════════════════════════════
+
+🚀 PASOS RÁPIDOS:
+
+1. npm install                    (instalar dependencias)
+2. npm run dev                    (probar local en http://localhost:5173)
+3. Crear repo GitHub              (nuevo repo "oxford-recibos")
+4. git init && git add . && git commit -m "Initial commit"
+5. git remote add origin URL_GITHUB
+6. git push -u origin main
+7. npm run deploy                 (sube a gh-pages automáticamente)
+8. GitHub Settings → Pages → source: gh-pages
+9. Espera 60 segundos
+10. Tu demo estará en: https://tuusuario.github.io/oxford-recibos
+
+═══════════════════════════════════════════════════════════════════════════
+
+📧 COMPARTIR CON CLIENTE:
+
+URL: https://tuusuario.github.io/oxford-recibos
+
+Dile que:
+✓ Es una demo funcional
+✓ Los datos son de demostración
+✓ En Fase 1 conectaremos datos reales de Excel
+✓ Pueden probar ambos roles
+✓ Funciona en iPad y Desktop
+✓ Sin login (solo demo)
+
+═══════════════════════════════════════════════════════════════════════════
+
+❓ PREGUNTAS COMUNES:
+
+P: ¿Puedo editar los datos?
+R: En demo no persisten. Fase 1 con Supabase lo hace real.
+
+P: ¿Funciona sin internet?
+R: Sí, una vez cargada la página (PWA mode)
+
+P: ¿Por qué gh-pages y no Vercel?
+R: gh-pages es gratis sin restricciones. Vercel requiere términos más estrictos.
+
+P: ¿Cuándo funciona con datos reales?
+R: Fase 1 (2-3 semanas): Supabase + auth real
+
+═══════════════════════════════════════════════════════════════════════════
